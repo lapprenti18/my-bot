@@ -1,0 +1,16 @@
+{
+  "name": "my-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lapprenti18/my-bot.git",
+  "author": "lapprenti18 <pokspid@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc main.ts; node main.js",
+    "clean": "rm -rf *.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "typescript": "^4.5.4"
+  }
+}
